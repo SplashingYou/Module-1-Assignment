@@ -33,5 +33,66 @@ package com.mycompany.csc229_assignment01;
  * @author MoaathAlrajab
  */
 public class Course {
+    private String code;
+    private String name;
+    private int ID;
+    
+    public Course(){
+        code = "NO_CODE";
+        name = "NO_NAME";
+        ID = 00000;
+    }
+    
+    public Course(int ID, String code, String name){
+        this.ID = ID;
+        this.code = code;
+        this.name = name;
+    }
+    
+
+    /**
+     * @return the code
+     */
+    public String getCode() {
+        return code;
+    }
+
+    /**
+     * @param code the code to set
+     */
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    /**
+     * @return the name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * @param name the name to set
+     */
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    /**
+     * @return the ID
+     */
+    public int getID() {
+        return ID;
+    }
+
+    /**
+     * @param ID the ID to set
+     */
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+    
+    
+    
 
 }
